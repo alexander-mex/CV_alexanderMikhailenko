@@ -1,0 +1,105 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f1e1e;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #70c38f; /* Пастельный зеленый цвет для h2 */
+  margin-top: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section:first-child {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.photo img {
+  max-width: 40%;
+}
+
+.name h2,
+.skills h2,
+.languages h2,
+.contacts h2,
+.profile h2,
+.projects h2,
+.history h2,
+.education h2 {
+  border-bottom: 5px #70c38f solid;
+  width: 20%;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.name p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.skills h2,
+.languages h2,
+.contacts h2 {
+  text-transform: uppercase;
+}
+
+.skills ul,
+.languages ul,
+.contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li,
+.languages li,
+.contacts li {
+  margin: 5px 0;
+}
+
+section:last-child {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.projects ul {
+  margin-left: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin: 10px 0;
+}
+
+.projects a, i{
+  font-weight: bold;
+  transition: color 0.3s;
+  color: #70c38f;
+  font-size: 20px;
+}
+
+.projects a:hover {
+  color: #ff5353;
+  text-shadow: 0 0 16px rgb(151, 144, 144);
+}
+
+.projects p {
+  margin: 10px 0;
+}
